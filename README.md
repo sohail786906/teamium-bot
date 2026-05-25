@@ -1,6 +1,6 @@
-# Knowledge Base API
+# Teamium Bot
 
-Production backend service for AI-powered document Q&A. Documents are uploaded via API, stored and embedded in Supabase pgvector, and queried using semantic search + Groq LLM.
+Production backend service for Teamium AI-powered document Q&A. Documents are uploaded via API, stored and embedded in Supabase pgvector, and queried using semantic search + Groq LLM.
 
 ## Tech Stack
 
@@ -74,8 +74,8 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000
 ### 4. Docker Deployment
 
 ```bash
-docker build -t knowledge-base-api .
-docker run -d --env-file .env -p 8000:8000 knowledge-base-api
+docker build -t teamium-bot .
+docker run -d --env-file .env -p 8000:8000 teamium-bot
 ```
 
 ## API Reference

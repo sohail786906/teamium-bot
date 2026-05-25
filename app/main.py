@@ -16,7 +16,7 @@ def create_app() -> FastAPI:
     setup_logger("kb_api")
 
     application = FastAPI(
-        title="Knowledge Base API",
+        title="Teamium Bot",
         version="1.0.0",
         docs_url=None,
         openapi_url=None,
